@@ -53,11 +53,11 @@ yearly_Sales,
 LAG(yearly_sales) OVER(
 					  PARTITION BY product
 					  ORDER BY order_year 
-					  )as previous_year_sale,
+					  )AS previous_year_sale,
 AVG(yearly_sales) OVER( 
 					  PARTITION BY product
-					  )as avg_sales				  
-from yearly_prod_sale 
+					  )AS avg_sales				  
+FROM yearly_prod_sale 
 )
 SELECT 
 order_year,
