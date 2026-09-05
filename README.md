@@ -128,17 +128,27 @@ A key focus of the project is understanding **data granularity** and ensuring th
 sql-data-exploratory-analysis-project/
 │
 ├── datasets/
+│   ├── dim_customers.csv
+│   ├── dim_products.csv
+│   └── fact_sales.csv
 │
 ├── scripts/
+│   ├── 00_init_database.sql
 │   ├── 01_database_exploration.sql
-│   ├── 02_measures_and_metrics.sql
-│   ├── 03_change_over_time.sql
-│   ├── 04_cumulative_analysis.sql
-│   ├── 05_performance_analysis.sql
-│   ├── 06_part_to_whole.sql
-│   ├── 07_data_segmentation.sql
-│   └── 08_final_report.sql
+│   ├── 02_dimension_exploration.sql
+│   ├── 03_date_exploration.sql
+│   ├── 04_measure_exploration.sql
+│   ├── 05_magnitude_analysis.sql
+│   ├── 06_ranking_analysis.sql
+│   ├── 07_change_over_time_analysis.sql
+│   ├── 08_cumulative_analysis.sql
+│   ├── 09_performance_analysis.sql
+│   ├── 10_part_to_whole_analysis.sql
+│   ├── 11_data_segmentation.sql
+│   ├── 12_report_customers.sql
+│   └── 13_report_products.sql
 │
+├── LICENSE
 └── README.md
 ```
 
